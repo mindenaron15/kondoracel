@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-primary t-white" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-primary t-white fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Kondoracél Kft.</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,8 +29,8 @@
         </div>
       </nav>
 
-      <div class="container mt-5 text-left">
-        <h3>A vállalkozás elérhetőségei a következők:</h3> 
+      <div class="container pt-4 mt-5 text-left">
+        <h2>A vállalkozás elérhetőségei a következők:</h2> 
         <ul>
           <li><b>Cím:</b> 9122 Felpéc, hrsz 0199/15.</li>
           <li><b>Telefon:</b> +36 96 551 032</li>
@@ -40,18 +40,18 @@
         </ul>
       </div>
 
-      <div class="container">
+<div class="container bg-info rounded-4">
         <form class="row g-3 mt-3 ml-">
-  <div class="col-md-4">
-    <label for="validationDefault01" class="form-label">Vezetéknév:</label>
+  <div class="col-lg-6">
+    <label for="validationDefault01" class="form-label fw-bold">Vezetéknév:</label>
     <input type="text" class="form-control" id="validationDefault01" value="" required>
   </div>
-  <div class="col-md-4">
-    <label for="validationDefault02" class="form-label">Keresztnév:</label>
-    <input type="text" class="form-control" id="validationDefault02" value="" required>
+  <div class="col-lg-6">
+    <label for="validationDefault02" class="form-label fw-bold">Keresztnév:</label>
+    <input type="text" class="form-control mb-4" id="validationDefault02" value="" required>
   </div>
- <div class="col-md-3">
-    <label for="validationDefault04" class="form-label">Vármegye:</label>
+ <div class="col-lg-3">
+    <label for="validationDefault04" class="form-label fw-bold">Vármegye:</label>
     <select class="form-select" id="validationDefault04" required>
       <option selected disabled value="">Válasszon</option>
       <option>Bács-Kiskun</option>
@@ -75,16 +75,16 @@
       <option>Zala</option>
     </select>
   </div>
-  <div class="col-md-3">
-    <label for="validationDefault05" class="form-label">Irányítószám:</label>
+  <div class="col-lg-3">
+    <label for="validationDefault05" class="form-label fw-bold">Irányítószám:</label>
     <input type="text" class="form-control" id="validationDefault05" required>
   </div>
-  <div class="col-md-6">
-    <label for="validationDefault03" class="form-label">Település:</label>
-    <input type="text" class="form-control" id="validationDefault03" required>
+  <div class="col-lg-6">
+    <label for="validationDefault03" class="form-label fw-bold">Település:</label>
+    <input type="text" class="form-control mb-4" id="validationDefault03" required>
   </div>
   <div class="col-12">
-    <button class="btn btn-primary" type="submit">Küldés</button>
+    <button class="btn btn-primary mb-4" type="submit">Küldés</button>
   </div>
 </form>
     </div>
